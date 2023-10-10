@@ -62,6 +62,7 @@ a:active{
 }
 .home-bd{
 margin-top:80px;
+padding: 30px;
 display: flex;
 justify-content: center;
 text-align: center;
