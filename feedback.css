@@ -1,0 +1,54 @@
+/*Header bg color #D6CCC2
+Navbar bg color #D5BDAF
+Body bg color #EDEDE9
+Input/feedback bg color #E3D5CA
+Font color #292833
+Header font: Cherry bomb
+Body font:Actor
+Header font:Cherry Bomb one*/
+
+.header{
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 30px;
+    text-align: center;
+    background-color:#d6ccc2;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    }
+    .navbar{
+        background-color: #d5bdaf;
+        height: 44px;
+        font-family: 'Actor', sans-serif;
+        font-size: 26px;
+    }
+    body{
+        background-color: #edede9;
+        color:#292833;
+        font-family: 'Actor', sans-serif;
+        font-size: 26px;
+        margin: 0px;
+        padding: 0px;
+    }
+    ul{
+        list-style-type: none;
+       padding-top: 6px;
+     
+    }
+    li{
+        display: inline;
+        padding: 40px;
+        
+    }
+    a:visited{
+    color: #292833;
+    text-decoration: none;
+    }
+    a:link{
+        color: #292833;
+        text-decoration: none;
+    }
+    a:active{
+        color:#292833;
+        text-decoration: none;
+    }
