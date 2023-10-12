@@ -78,3 +78,42 @@ a:active{
     color:#292833;
     text-decoration: none;
 }
+.facilities{
+
+    padding: 33px 200px;
+    font-family: 'Actor', sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px 10px;
+}
+    .fac{
+          
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px 30px;
+        margin-left: auto;
+      
+    } 
+    .other
+    {
+       
+        background-color: #E3D5CA;
+        border: 0px;
+        border-radius: 18px;
+        font-size: 14px;
+        text-align: center;
+        width: 400px;
+        padding: 10px;
+        margin-bottom: 10px;
+       
+    }
+    img{
+        height: 120px;
+        width: 120px;
+        border: 0px;
+        border-radius: 50%;
+        object-fit: cover;
+        padding: 12px;
+        float: left;
+      
+    }
