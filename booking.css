@@ -80,11 +80,10 @@ a:active{
 }
 
 .booking{
-
 padding: 33px 100px;
 display: flex;
 justify-content: space-between;
-margin: 10px 150px;
+margin: 50px 150px;
 font-family: 'Actor', sans-serif;
 
 }
@@ -97,8 +96,8 @@ input{
     padding-left:20px;
     font-family: 'Actor', sans-serif;
 }
-label{
-    font-size: 20px:
+.booking-form{
+    font-size: 20px;
 
 }
 #paint, #clay, #wood{

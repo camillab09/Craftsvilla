@@ -79,7 +79,7 @@ a:active{
     text-decoration: none;
 }
 .feedback{
-
+margin-top: 50px;
     padding: 33px 200px;
     font-family: 'Actor', sans-serif;
     display: grid;

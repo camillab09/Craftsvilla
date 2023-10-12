@@ -85,6 +85,7 @@ a:active{
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px 10px;
+    margin-top: 50px;
 }
     .fac{
           
