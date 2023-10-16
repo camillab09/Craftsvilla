@@ -1,107 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="booking.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
     <title>Craftsvilla-Booking</title>
     <link rel="icon" type="image/x-icon" href="./Images/Favicon/favicon-16x16.png">
 </head>
+
 <body>
     <div class="header">
         <img src="./Images/Logo/logo-woman.png" id="logof" alt="Line art of a smiling woman holding paint brushes">
         <h1><a href="home.html">CRAFTSVILLA</a></h1>
         <img src="./Images/Logo/logo-man.png" id="logom" alt="Line art of a smiling man holding a hammer">
     </div>
-        <div class="navbar">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="booking.html">Booking</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="feedback.html">Feedback</a></li>
-                <li><a href="facilities.html">Facilities</a></li>
-            </ul>
-        </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+        </ul>
+    </div>
     <div class="booking">
-   <div id="left">
-    <h3>Booking</h3>
-    <div class="booking-form">
-        <form action="book">
-            <br>
-            <label for="name">Name</label>
-            <br>
-            
-            <input type="text" class="field" placeholder="Name">
-            <br>
-            <br>
-            <label for="email"> Email</label>
-            <br>
-           
-            <input type="email" class="field" placeholder="Email address">
-            <br>
-            <br>
-            <label for="facility">Facility</label>
-            <br>
-            <input list="facilities" class="field" placeholder="Choose a facility"> <datalist id="facilities">
-                <option value="Painting studio">
-                <option value="Pottery studio">
-                <option value="Woodworking">
-                <option value="Sewing room">
-                <option value="Music studio">
-                <option value="Multi-purpose room">   
-                </option>
-              </datalist>
-              <br>
-           <label for="products">Products</label>
-           <br>
-           <br>
-        <input type="checkbox" id="paint" name="paint" value="paint">
-        <label for="paint"> Painting supplies (Includes 2x canvas, 5 brushes and set of 12 colors $25)</label>
-        <br>
-        <input type="checkbox" id="clay" name="clay" value="clay">
-        <label for="clay"> Pottery supplies (includes clay, tools and white laquer, $50)</label>
-        <br>
-        <input type="checkbox" id="wood" name="wood" value="wood">
-        <label for="wood"> Wood for woodworking (Tools available at workshop, $20-$60)</label>
-        <br>
-        <br>
-        <label for="questions">Questions or commentary to your booking</label>
-        <br>
-        <br>
-        <textarea name="message"  style="width:400px; height:250px;" id="comment" placeholder="Questions or comments to your booking? Add them here!"></textarea> 
-        <br>
-        <label for="amount">Number of attendants</label>
-        <br>
-        <input list="amount" class="amount" placeholder="People"> <datalist id="amount">
-            <option value="1 person">
-            <option value="2 people">
-            <option value="3-5 people">
-            <option value="6-10 people"> 
-            </option>
-          </datalist>
-          
-          <label for="occation" id="yn">Special occation?  </label>
-         <input type="radio" name="yn" id="radio"> Yes
-          <input type="radio" name="yn" id="radio">No
-    </form>
+        <div id="left">
+            <h3>Booking</h3>
+            <div class="booking-form">
+                <form action="book">
+                    <br>
+                    <label for="name">Name</label>
+                    <br>
 
+                    <input type="text" class="field" placeholder="Name">
+                    <br>
+                    <br>
+                    <label for="email"> Email</label>
+                    <br>
+
+                    <input type="email" class="field" placeholder="Email address">
+                    <br>
+                    <br>
+                    <label for="facility">Facility</label>
+                    <br>
+                    <input list="facilities" class="field" placeholder="Choose a facility"> <datalist id="facilities">
+                        <option value="Painting studio">
+                        <option value="Pottery studio">
+                        <option value="Woodworking">
+                        <option value="Sewing room">
+                        <option value="Music studio">
+                        <option value="Multi-purpose room">
+                        </option>
+                    </datalist>
+                    <br>
+                    <br>
+                    <label for="products">
+                        <h3>Products</h3>
+                    </label>
+                    <br>
+
+                    <input type="checkbox" id="paint" name="paint" value="paint">
+                    <label for="paint"> Painting supplies (Includes 2x canvas, 5 brushes and set of 12 colors
+                        $25)</label>
+                    <br>
+                    <input type="checkbox" id="clay" name="clay" value="clay">
+                    <label for="clay"> Pottery supplies (includes clay, tools and white laquer, $50)</label>
+                    <br>
+                    <input type="checkbox" id="wood" name="wood" value="wood">
+                    <label for="wood"> Wood for woodworking (Tools available at workshop, $20-$60)</label>
+                    <br>
+                    <br>
+                    <label for="questions">
+                        <h3>Questions or commentary to your booking</h3>
+                    </label>
+                    <br>
+
+                    <textarea name="message" style="width:400px; height:250px;" id="comment"
+                        placeholder="Questions or comments to your booking? Add them here!"></textarea>
+                    <br>
+                    <label for="amount">Number of attendants</label>
+                    <br>
+                    <input list="amount" class="amount" placeholder="People"> <datalist id="amount">
+                        <option value="1 person">
+                        <option value="2 people">
+                        <option value="3-5 people">
+                        <option value="6-10 people">
+                        </option>
+                    </datalist>
+
+                    <label for="occation" id="yn">Special occation? </label>
+                    <input type="radio" name="yes" id="yes"> <label for="yes">Yes</label>
+                    <input type="radio" name="no" id="no"><label for="no">No</label>
+                </form>
+
+            </div>
+        </div>
+        <div id="right">
+            <h3>Pick an available time slot</h3>
+            <br>
+            <br>
+            <iframe
+                src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23e3d5ca&ctz=Europe%2FBrussels&showTabs=0&showTz=0&showPrint=0&showNav=1&showDate=1&src=ZTU2ZmVjMjQ3MTNlZGNkNGYyYmVmYjNkZjM1NTZlMDM2OTk3OWVjZTYyMzM3MzU1ODQyZTYzOTgwZDdhZmNkZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23C0CA33"
+                style="border-width:0" width="500" height="400" frameborder="0" scrolling="no"></iframe>
+            <br>
+            <br>
+            <input type="submit" id="submit" value="Submit">
+        </div>
     </div>
-    </div>
-    <div id="right">
-        <h3>Pick an available time slot</h3>
-        <br>
-        <br>
-        <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23e3d5ca&ctz=Europe%2FBrussels&showTabs=0&showTz=0&showPrint=0&showNav=1&showDate=1&src=ZTU2ZmVjMjQ3MTNlZGNkNGYyYmVmYjNkZjM1NTZlMDM2OTk3OWVjZTYyMzM3MzU1ODQyZTYzOTgwZDdhZmNkZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23C0CA33" style="border-width:0" width="500" height="400" frameborder="0" scrolling="no"></iframe>
-        <br>
-        <br>
-        <input type="submit" id="submit" value="Submit">
-    </div>
-</div>
-   </body>
+</body>
+
 </html>
